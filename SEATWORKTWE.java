@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SEATWORKTWELVE{
+public class SEATWORKTWELVE {
     public static void checkBalance(int[] balances, int accountNumber) {
             System.out.println("Your current balance is: " + balances[accountNumber]);
          }

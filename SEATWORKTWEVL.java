@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SEATWORKTWELVE{
+public class SEATWORKTWEVL
     public static void checkBalance(int[] balances, int accountNumber) {
             System.out.println("Your current balance is: " + balances[accountNumber]);
          }
@@ -28,7 +28,7 @@ public class SEATWORKTWELVE{
          }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] balances = {10000, 20000, 30000, 5, 1}; 
+        int[] balances = {10000, 20000, 30000, 5, 1}; I 
 
         System.out.println("=== Welcome to Simple Banking System ===");
         System.out.print("Enter account number (0 to " + (balances.length - 1) + "): ");
